@@ -1,15 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import UserInfo from './componenets/UserInfo/UserInfo'
+import GetPostsData from './componenets/Posts/GetData'
 
 function App() {
-
-  return(
-    <>
-      <UserInfo userId={121}/>
-    </>
-  )
-    
+    return (
+        <GetPostsData/>
+    )
 }
 
 export default App
