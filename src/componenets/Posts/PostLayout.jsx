@@ -15,7 +15,7 @@ function PostLayout({ post }) {
                 {post.body}
             </p>
 
-            <button className="readMoreBtn" onClick={() => {setShow(!show)}}>
+            <button className={styles.readMoreBtn} onClick={() => {setShow(!show)}}>
                 Visa användarinfo
             </button>
             {show && <UserInfo userId={post.userId} />}

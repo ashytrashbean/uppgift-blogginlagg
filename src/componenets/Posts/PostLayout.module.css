@@ -1,6 +1,7 @@
 .postLayout {
+    background-color: #fffce3;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,4 +20,19 @@
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.readMoreBtn {
+    background-color: #ff00aa;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 16px 20px;
+    cursor: pointer;
+}
+
+.readMoreBtn:hover {
+    transform: scale(1.1);
+    background-color: #53093a;
+    color: #fff;
 }
