@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import "./UserInfo.module.css"
 
 export default function UserInfo({userId}){
 
@@ -24,7 +25,10 @@ export default function UserInfo({userId}){
     return(
         <section>
             <img src={user.image} alt="" />
-            <h3>{user.username}</h3>
-            <p>{user.email} | {user.address?.city}</p>
+            <div>
+                <h3>{user.username}</h3>
+                <p>{user.email} | {user.address?.city}</p>
+            </div>
+            
         </section>)
 }

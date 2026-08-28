@@ -1,0 +1,19 @@
+section{
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+div{
+    text-align: start;
+    align-content: center;
+}
+
+h3{
+    margin: 5px;
+}

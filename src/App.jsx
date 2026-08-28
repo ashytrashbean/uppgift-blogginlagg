@@ -6,6 +6,7 @@ import UserInfo from './componenets/UserInfo/UserInfo'
 function App() {
     return (
       <>
+        <UserInfo userId={121}/>
         <GetPostsData/>
       </>
     )
